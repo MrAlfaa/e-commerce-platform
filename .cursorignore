@@ -1,0 +1,14 @@
+# Allow Cursor AI to access .env files for development
+# This overrides Cursor's default ignore patterns for this project only
+!.env
+!.env.local
+!.env.development.local
+!.env.test.local
+!.env.production.local
+!.env.staging
+!.env.development
+!.env.production
+
+# Optional: Allow access to other config files if needed
+# !config/secrets.js
+# !secrets.json
